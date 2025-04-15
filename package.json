@@ -2,6 +2,7 @@
   "name": "shortenly",
   "private": true,
   "scripts": {
+    "postinstall": "prisma generate",
     "build": "remix vite:build",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
